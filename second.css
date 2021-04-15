@@ -1,0 +1,65 @@
+.saved-1{
+        display: flex;
+        background-color: lightgrey;
+        width: 1500px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+      
+}
+
+.saved-2{
+    
+        background-color: lightgrey;
+        width: 1500px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+      }
+
+
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: auto;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      #add:hover{
+        background-color: green;
+       
+    }
+    
+    #cancel:hover{
+        
+       
+        background-color: rgb(255, 94, 0);
+    }
+    
+
+
+/* 
+ div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }  */
